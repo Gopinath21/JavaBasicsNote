@@ -1,0 +1,10 @@
+copyOf(arrayRef,lenght):=
+Eg:=
+
+int[] i={1,2,3,4,5};
+int b[]=Arrays.copyOf(i,3);
+for(int c:b)
+System.out.println(c);
+
+o/p:-
+1 2 3
