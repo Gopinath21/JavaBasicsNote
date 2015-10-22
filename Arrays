@@ -1,4 +1,5 @@
-copyOf(arrayRef,lenght):=
+1)copyOf(arrayRef,lenght):=
+========================
 Eg:=
 
 int[] i={1,2,3,4,5};
@@ -8,3 +9,11 @@ System.out.println(c);
 
 o/p:-
 1 2 3
+
+2)copyOfRange:=
+--------------
+int i[] ={1,3,3,4,5};
+int d[ ]=Arrays.copyOfRange(i,2,4);
+for(int f:d)
+Sop(f);
+=================
